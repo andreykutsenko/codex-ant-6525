@@ -22,7 +22,7 @@ prompt = sys.argv[1]
 # Готовим headers для API
 headers = {
     "Content-Type": "application/json",
-    "x-api-key": api_key,
+    "x-api-key": API_KEY,
     "anthropic-version": "2023-06-01"
 }
 
