@@ -21,8 +21,9 @@ prompt = sys.argv[1]
 
 # Готовим headers для API
 headers = {
-    "x-api-key": API_KEY,
-    "content-type": "application/json"
+    "Content-Type": "application/json",
+    "x-api-key": api_key,
+    "anthropic-version": "2023-06-01"
 }
 
 # Anthropic API endpoint
